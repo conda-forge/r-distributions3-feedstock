@@ -3,11 +3,13 @@ About r-distributions3-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-distributions3-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/alexpghayes/distributions3, https://alexpghayes.github.io/distributions3/
+Home: https://alexpghayes.github.io/distributions3/
 
 Package license: MIT
 
 Summary: Tools to create and manipulate probability distributions using S3.  Generics pdf(), cdf(), quantile(), and random() provide replacements for base R's d/p/q/r style functions.  Functions and arguments have been named carefully to minimize confusion for students in intro stats courses. The documentation for each distribution contains detailed mathematical notes.
+
+Development: https://github.com/alexpghayes/distributions3
 
 Current build status
 ====================

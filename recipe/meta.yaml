@@ -14,7 +14,7 @@ source:
 
 build:
   merge_build_host: True  # [win]
-  number: 1
+  number: 2
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -41,7 +41,8 @@ test:
     - "\"%R%\" -e \"library('distributions3')\""  # [win]
 
 about:
-  home: https://github.com/alexpghayes/distributions3, https://alexpghayes.github.io/distributions3/
+  home: https://alexpghayes.github.io/distributions3/
+  dev_url: https://github.com/alexpghayes/distributions3
   license: MIT
   summary: Tools to create and manipulate probability distributions using S3.  Generics pdf(),
     cdf(), quantile(), and random() provide replacements for base R's d/p/q/r style
